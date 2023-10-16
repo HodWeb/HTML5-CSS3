@@ -1,0 +1,39 @@
+@charset "UTF-8"; /*regra para acentuação BR*/
+
+/*
+    em HTML é id = em CSS é #
+    em HTML é class = em CSS é .
+*/
+body{
+    background-color: rgb(161, 235, 210);/*cor de funda página*/
+}
+
+h1{
+    color: rgb(4, 107, 73);/*cor da fonte do H1*/
+}
+
+h1#principal { /*referente ao id principal do HTML*/
+    text-align: center;/*Centraliza o texto do H1 #principal*/
+    background-color: rgb(4, 107, 73);/*cor de fundo do H1 #principal*/
+    color: white;/*cor da fonte do H1 #principal*/
+}
+
+h2{ /*referente ao h2 do HTML*/
+    color: rgb(24, 51, 42);/*cor da fonte do H2*/
+}
+
+.basico{ /*referente a classe .basico do HTML*/
+    color: rgb(38, 172, 127);/*cor da fonte da classe .basico*/
+}
+
+.intermediario{ /*referente a classe .intermediario do HTML*/
+    color: rgb(116, 141, 6);/*cor da fonte da classe .intermediario*/
+}
+
+.avancado{ /*referente a classe .avancado do HTML*/
+    color: rgb(175, 8, 8);/*cor da fonte da classe .avancado*/
+}
+
+.destaque{ /*referente a classe .basico do HTML*/
+    background-color: rgb(189, 199, 52);/*cor de fundo .destaque*/
+}

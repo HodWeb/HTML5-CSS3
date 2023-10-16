@@ -1,0 +1,14 @@
+de index.html ele salvou com o nome de android.html
+
+titulo
+Como Surgiu o mascote do Android?
+
+eu coloquei o <nav> dentro do <header> o certo é fora
+
+envelopou tudo dentro de um <artigo>
+
+<favicon>
+
+pasta estilo para CSS
+
+

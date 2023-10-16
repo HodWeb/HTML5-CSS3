@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{ /* Elemento do tipo Box-Level */
+
+            display: inline;    
+
+            background-color: rgb(222, 84, 235); /* cor de fundo do H1 */
+            text-align: center; /* TEXTO do h1 alinhado ao CENTRO */
+            height: 100px; /* height = altura */
+            width: 300px;  /* width = largura */
+
+            border-width: 10px; /* largura da borda (espessura) */
+            border-style: groove; /* estilo da borda */
+            border-color: #831e72; /* cor da borda */
+
+            /*Usando Shorthands*/
+
+            border: 10px groove #831e72;
+
+            padding-top: 10px; /* espaço de cima */
+            padding-right: 15px; /* espaço da direita */
+            padding-bottom: 20px; /* espaço de baixo */
+            padding-left: 25px; /* espaço daesquerda */
+
+            /*Usando Shorthands*/
+
+            padding: 10px 15px 20px 25px;
+
+            /* ou também colocando apenas duas medidas */
+
+            padding: 10px 20px; /* em cima 10px embaixo 10px */
+                                /* na direita 20px na esquerda 20px */  
+
+            margin: auto; /* deixa no meio da tela automaticamente */
+
+            margin-top: 20px; /* espaço de cima externo do box */
+            margin-right: 20px; /* espaço de direita externo do box */
+            margin-bottom: 40px; /* espaço de baixo externo do box */
+            margin-left: 10px; /* espaço da esquerda externo do box */
+
+            /*Usando Shorthands*/
+
+            margin: 20px 20px 40px 10px;
+
+            /* deixando com auto margem em dois lados */
+
+            margin: auto 20px auto 10px;
+          
+
+            outline-width: 5px; /* largura entre a borda e a margem */
+            outline-style: dashed; /* trassejado entre a borda e a margem */
+            outline-color: salmon; /* Cor entre a borda e a margem */
+
+            /*Usando Shorthands*/
+
+            outline: 5px dashed salmon;
+        }
+
+        a { /* Elemento do tipo Box Inline-level */
+
+            display: block;
+
+            border-width: 10px; /* largura da borda */
+            border-style: solid; /* estilo da borda */
+            border-color: #df063c; /* cor da borda */
+
+            padding-top: 10px; /* espaço de cima */
+            padding-right: 10px; /* espaço da direita */
+            padding-bottom: 10px; /* espaço de baixo */
+            padding-left: 10px; /* espaço daesquerda */
+
+            margin-top: 10px; /* espaço de cima externo do box */
+            margin-right: 10px; /* espaço de direita externo do box */
+            margin-bottom: 10px; /* espaço de baixo externo do box */
+            margin-left: 10px; /* espaço da esquerda externo do box */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Delícias da Caty</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como isso tudo funciona. </p>
+    
+</body>
+</html>

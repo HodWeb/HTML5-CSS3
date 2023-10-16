@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        div{
+            display: inline-block; /*configura Tudo na Mesma Linha*/
+            background-color: rgb(137, 139, 139);/*cor de fundo da Div*/
+            border: 1px solid black; /*borda da div rm 1px e cor black*/ 
+            text-align: center;/*centraliza o texto da div*/
+            height: 200px; /*Altura da div em 200px*/ 
+            width: 200px; /*Largura da div em 200px*/
+        }
+
+        div:hover { /*hover é uma pseudo-classe a classe div  */
+                    /*hover destaca quando passa o mouse sobre a div (nesse caso fica com a cor amarelo) */
+            background-color: yellow; /*cor de fundo da div*/
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+</body>
+</html>

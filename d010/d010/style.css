@@ -1,0 +1,86 @@
+@charset "UTF-8";  /*regra para acentuação BR*/
+
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(55, 172, 25);
+    margin: 0px;
+}
+
+h1#principal { /*referente ao id principal do HTML*/
+    text-align: center;/*Centraliza o texto do H1 #principal*/    
+    color: white;/*cor da fonte do H1 #principal*/
+}
+
+p#principal { /*referente ao id principal do HTML*/
+    text-align: center;/*Centraliza o texto do p #principal*/    
+    color: white;/*cor da fonte do p #principal*/
+}
+
+section > h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkgreen;
+    text-align: justify;
+}
+
+section > h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(193, 235, 198);
+    color: darkgreen;
+    text-align: justify;
+}
+
+article {
+    background-color: rgb(2, 78, 53);
+}
+
+section > p {
+    text-align: justify;
+}
+
+header {
+    background-color: rgb(6, 121, 63);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px; /* Bordas Arredondadas */
+
+}
+
+picture {
+    text-align: center; /* NÃO FUNCIONOU PARA CENTRALIZAR AS IMAGENS*/
+}
+
+nav {
+    background-color: rgb(1, 90, 23);
+    padding: 3px;
+    box-shadow: 1px 1px 1px black; /* Config.Sombra */
+    border-radius: 20px; /* Bordas Arredondadas */
+}
+
+nav > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px 200px;
+    border-radius: 10px 0px; /* Bordas Arredondadas */
+    box-shadow: 4px 4px 9px 0px black;
+}
+
+footer { /*Config. Rodapé */
+    background-color: rgb(1, 99, 14);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;
+}
+
