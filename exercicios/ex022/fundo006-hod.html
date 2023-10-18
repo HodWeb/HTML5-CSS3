@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: rgb(226, 235, 147);
+            background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
-            background-repeat: repeat-y; /*Faz a imagem repetir quando o conteúdo fica maior que a imagem*/
+            background-repeat: no-repeat;
             background-size: cover; /*deixa a imagem adaptável para a tela*/
+            background-attachment: fixed; /*a imagem de fundo fica fixa (ela não rola junto)*/
         }
 
         main {
-            background-color: aliceblue;
-            width: 400px;
+            background-color: white;
+            max-width: 600px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
