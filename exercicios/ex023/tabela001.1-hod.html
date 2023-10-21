@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alinhamento da Tabelas</title>
+    <title>Tabelas</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
@@ -11,22 +11,21 @@
 
         table {
             width: 400px;
-            height: 400px;
             border-collapse: collapse; /*retira espaços entre as linhas*/
+        }
+
+        tr.linha {
+            background-color: yellow;
         }
 
         td {
             border: 1px solid black;
             padding: 8px;
-            text-align: left; /*Alinhamento Horizontal*/
-            vertical-align: middle; /*Alinhamento Vertical (middle = centro)*/
         }
 
-        .numero {
-            text-align: right;
+        td.dado {
+            background-color: rgb(34, 192, 34);
         }
-
-       
     </style>
 </head>
 <body>
@@ -45,21 +44,21 @@
             <td>C1</td><!--Terceira Célula-->
         </tr>
 
-        <tr> <!--Segunda Linha-->
+        <tr class="linha"> <!--Segunda Linha-->
             <td>A2</td><!--Primeira Célula-->
-            <td>B2</td><!--Segunda Célula-->
-            <td class="numero">C2</td><!--Terceira Célula-->
+            <td>B3</td><!--Segunda Célula-->
+            <td>C4</td><!--Terceira Célula-->
         </tr>
 
         <tr> <!--Terceira Linha-->
             <td>A3</td><!--Primeira Célula-->
             <td>B3</td><!--Segunda Célula-->
-            <td class="numero">C3</td><!--Terceira Célula-->
+            <td>C3</td><!--Terceira Célula-->
         </tr>
 
         <tr> <!--Quarta Linha-->
             <td>A4</td><!--Primeira Célula-->
-            <td>B4</td><!--Segunda Célula-->
+            <td class="dado">B4</td><!--Segunda Célula-->
             <td>C4</td><!--Terceira Célula-->
         </tr>
     </table>
