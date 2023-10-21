@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alinhamento da Tabelas</title>
+    <title>Uso de tabelas Grandes</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
@@ -30,15 +30,34 @@
     </style>
 </head>
 <body>
-    <h1>Minha primeira tabela</h1>
+    <h1>Uso de tabelas Grandes</h1>
     <!--
-        HIERARQUIA DE TABELAS (simples)
+        ANATOMIA PARA TABELAS GRANDES
         TABLE = tabela
-            TABLE ROW = linha de tabela
-                TABLE HEADER = cabeçalho de tabela
-                TABLE DATA = dados de tabela
+            THEAD = cabeçalho de tabela
+                TR, TD, TH
+            TBODY = dados de tabela
+                TR, TD, TH
+            TFOOT = Rodapé da tabela
+                TR, TD, TH
         -->
     <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>  
+            </tr>
+        </thead>
+        <tbody>
+            <td>São Paulo</td>
+            <td>45.919.66</td>
+
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+
+
         <tr> <!--Primeira Linha-->
             <td>A1</td><!--Primeira Célula-->
             <td>B1</td><!--Segunda Célula-->

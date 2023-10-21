@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de tabelas Grandes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse; /*retira espaços entre as linhas*/
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: rgb(11, 115, 184);
+            color: rgb(255, 255, 255);
+        }
+
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h4>HTML5 e CSS3: Módulo 3 de 5 [VIP]</h4>
+    <h4>Módulo 3 - Capítulo 21 Aula 04 – Anatomia de tabelas grandes</h4>
+    <hr>
+
+    <h1>Uso de tabelas Grandes</h1>
+    
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE = tabela
+            THEAD = cabeçalho de tabela
+                TR, TD, TH
+            TBODY = dados de tabela
+                TR, TD, TH
+            TFOOT = Rodapé da tabela
+                TR, TD, TH
+        -->
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th> <!--th = Título-->
+                <th>População</th> <!--th = Título-->  
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td> <!--td = Dados-->
+                <td class="num">45.919.66</td> <!--td = Dados-->
+            </tr>
+            <tr>
+                <td>Minas Gerais</td> <!--td = Dados-->
+                <td class="num">21.656.66</td> <!--td = Dados-->
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td> <!--td = Dados-->
+                <td class="num">17.264.64</td> <!--td = Dados-->
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th> <!--th = Título-->
+                <td class="num"><p><strong>511.646.794</strong></p></td> <!--td = Dados-->  
+            </tr>
+        </tfoot>            
+</body>
+</html>
