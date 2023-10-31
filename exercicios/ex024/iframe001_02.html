@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de iframe</title>
+    <style>
+        /* as config. do CSS são soberanas sobre as em linha */
+        iframe {
+            width: 800px;
+            height: 800px;
+            border: 2px solid black; /* inserir bordar no iframe */
+        }
+
+    </style>
+</head>
+<body>
+    <h4>HTML5 e CSS3: Módulo 4 de 5 [VIP]</h4>
+    <h4>Módulo 4 - Capítulo 22 Aula 2 – Configurações do iframe</h4>
+    <hr>
+
+    <h1>Testando o uso de um iframe</h1>
+
+    <p>
+        Acessando o site 
+        <!-- Tamanho Padrão 300x150px -->
+        <iframe src="https://www.cursoemvideo.com" frameborder="0">
+            no
+            <!-- caso não abra o iframe ele vai para a segunda opção que é o link abaixo -->
+            <a href="https://www.cursoemvideo.com" target="_blank">Curso em Vídeo</a>
+        </iframe> 
+    
+        para aprender a programar
+    </p>
+
+    <p>
+        o repositório do Guanabara
+        <!-- tamanho personalizado -->
+        <iframe src="https://gustavoguanabara.github.io/" frameborder="0" height="500" width="600">
+            no
+            <a href="https://gustavoguanabara.github.io/" target="_blank">github</a>    
+        </iframe></p>
+
+        também é bem legal!
+        
+        
+    
+</body>
+</html>
