@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos color, range e file em HTML</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <h2>Elementos color, range e file em HTML</h2>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        
+    <fieldset> <!-- agrupamento de campos-->
+        <legend>Cores</legend>
+        <p>
+            <label for="icor">Cor: </label>
+            <input type="color" name="cor" id="icor" value="#FF0000">
+        </p>       
+    </fieldset>
+    <br>
+    <fieldset> <!-- agrupamento de campos-->
+        <legend>Nível de Satisfação: </legend>
+        <p>
+            <label for="inivel">Nível de Satisfação:  </label>
+            <input type="range" name="nivel" id="inivel" min="1" max="10">
+        </p>       
+    </fieldset>
+    <br>
+    <fieldset> <!-- agrupamento de campos-->
+        <legend>Foto de Perfil: </legend>
+        <h3>para envio de foto seu formulário de cadastro precisa estar com o método POST (isso porque imagens são maiores 3 mil bits)</h3>
+        <p>
+            <label for="ifoto">Foto de Perfil:  </label>
+            <input type="file" name="foto" id="inivel">
+        </p>       
+    </fieldset>
+
+    
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+    
+    </form>
+</body>
+</html>

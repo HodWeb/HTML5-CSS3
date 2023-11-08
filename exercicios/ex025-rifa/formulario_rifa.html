@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifa</title>
+</head>
+<body>
+    <h1>Ação Entre Amigos</h1>    
+    <form action="cadastro.php" method="get">
+    <p>
+        <label for="inome">Nome da Escola</label>
+        <input type="text" name="nome" id="inome" required maxlength="50" placeholder="Nome da Escola" autocomplete="name">
+    </p>
+    <p>
+        <label for="idia">Data do Sorteio</label>
+        <input type="date" name="dia" id="idia">
+    </p>
+    <p>
+        <label for="ivalor">Valor</label>
+        <input type="number" name="valor" id="ivalor" placeholder="R$">
+    </p>
+    <p>
+        <label for="iest">Quantidade de Números: </label>
+        <select name="estado" id="iest">
+            <option value="" selected>--- Escolha ---</option>            
+                <option value="1000">até 1000</option>
+                <option value="2000">até 2000</option>
+                <option value="3000">até 3000</option>
+                <option value="4000">até 4000</option>
+                <option value="5000">até 5000</option>
+        </select>
+    </p>
+
+    <p>
+        <fieldset>
+            <label for="imsg">Digite os Prêmios da Rifa: </label>            
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </fieldset>
+    </p>
+    <br>
+    <fieldset> <!-- agrupamento de campos-->
+        <legend>Logo da Escola: </legend>        
+        <p>
+            <label for="ilogo">Insirir a Logo da Escola:  </label>
+            <input type="file" name="logo" id="inivel">
+        </p>       
+    </fieldset>
+
+    <!-- <p>
+        <label for="imes">Período Letivo</label>
+        <input type="month" name="mes" id="imes" value="">
+    </p> -->
+    
+    <!-- <p>
+        <label for="ihora">Hora da Prova</label>
+        <input type="time" name="hora" id="ihora">
+    </p> -->
+    <p>
+        <input type="submit" value="Criar Rifa">
+        <input type="submit" value="Visualizar">
+        <input type="reset" value="Limpar">
+    </p>
+    
+</body>
+</html>
