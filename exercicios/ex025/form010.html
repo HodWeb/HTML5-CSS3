@@ -11,22 +11,26 @@
     <form action="cadastro.php" method="get" autocomplete="on">
         <p>
             <label for="iano">Em qual ano você nasceu? </label>
-            <input type="number" name="ano" id="iano" min="1900" max="2020">
+            <input type="number" name="ano" id="iano" min="1900" max="2020" oninput="calcIdade()">
         <p>
             <label for="iidade">Sua Idade é: </label>
-            <oninput="ival.innerHTML = Number(inum.value)">
-            <output id="ival">5</output>
-        </p>
-            
-            
-            
-        </p>
-        
+            <output id="iidade">0</output>
+        </p>            
+        </p>        
     <p>
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
-    </p>
-    
+    </p>    
     </form>
+
+    <script>
+        function calcIdade() {
+          let atual = new Date().getFullYear()  
+          iidade.innerHTML = Number(atual) - Number(iano.value)
+        }
+
+    </script>
+
+
 </body>
 </html>
