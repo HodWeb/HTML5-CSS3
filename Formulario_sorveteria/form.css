@@ -4,27 +4,17 @@
     padding: 0;
 }
 
-/* Elementos com o ID "titulo" */
-#titulo {
+/* Elementos com o ID "ititulo" */
+#ititulo {
     font-family: sans-serif;
-    color: #380B61;
+    color: #29cc29; /*#59429d*/
     margin-left: 7%;
 } 
 
-/* Elementos com o ID "subtitulo" */
-#subtitulo {
-    font-family: sans-serif;
-    color: #380B61;
-    margin-left: 15%;
-} 
-
-#check{
-    display: inline-block;
-}
-
 /* Elementos de tag <fieldset>*/
 fieldset {
-    border: 0;
+    border: 10px solid;
+    color: rgb(255, 153, 0);
 }
 
 /* Elemento de tag <body> */
@@ -64,7 +54,7 @@ input, select, textarea, button {
 /* Elementos de classe "campo" de tag <label> */
 .campo label {
     margin-bottom: 0.2em;
-    color: #59429d;
+    color: rgb(75, 56, 56);/* #59429d; */
     display: block;
 }
 
