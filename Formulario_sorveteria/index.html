@@ -25,7 +25,7 @@
             <fieldset>
                 <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
                 <div class="campo">
-                    <label for="nome"><strong>Nome do cliente</strong></label>
+                    <label class="setores" for="clientes"><strong>Nome do cliente</strong></label>
                     <input type="text" name="nome" id="nome" required>
                 </div>                
             </fieldset>
@@ -41,16 +41,16 @@
             <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
             <fieldset>
                 <div class="campo">
-                    <label><strong>Escolha seu sorvete:</strong></label>
+                    <label class="setores" for="sorvetes"><strong>Escolha seu sorvete:</strong></label><br>
                     <label>
                         <input type="radio" name="sorvete" value="copinho" checked> Copinho
-                    </label>
+                    </label><br>
                     <label>
                         <input type="radio" name="sorvete" value="casquinha"> Casquinha
-                    </label>
+                    </label><br>
                     <label>
                         <input type="radio" name="sorvete" value="cascao"> Cascão
-                    </label>
+                    </label><br>
                     <label>
                         <input type="radio" name="sorvete" value="cascaochocolate"> Cascão de Chocolate
                     </label>
@@ -61,19 +61,13 @@
                 <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
             <fieldset>    
                 <div class="campo">
-                    <label><strong>Escolha seus sabores:</strong></label>
-                    <input type="checkbox" id="sabor1" name="sabor1" value="Oreo">
-                    <label for="sabor1"> Oreo</label>
-                    <input type="checkbox" id="sabor2" name="sabor2" value="Morango">
-                    <label for="sabor2"> Morango</label>
-                    <input type="checkbox" id="sabor3" name="sabor3" value="Caramelo">
-                    <label for="sabor3"> Caramelo</label>
-                    <input type="checkbox" id="sabor4" name="sabor4" value="Brigadeiro">
-                    <label for="sabor4"> Brigadeiro</label>
-                    <input type="checkbox" id="sabor5" name="sabor5" value="Melância">
-                    <label for="sabor5"> Melância</label>
-                    <input type="checkbox" id="sabor6" name="sabor6" value="Creme">
-                    <label for="sabor6"> Creme</label>                    
+                    <label class="setores" for="sabores"><strong>Escolha seus sabores:</strong></label><br>
+                    <input type="checkbox" name="sabor1" id="sabor1"> <label for="sabor1"> Oreo</label><br>
+                    <input type="checkbox" name="sabor2" id="sabor2"> <label for="sabor2"> Morango</label><br>
+                    <input type="checkbox" name="sabor3" id="sabor3"> <label for="sabor3"> Caramelo</label><br>
+                    <input type="checkbox" name="sabor4" id="sabor4"> <label for="sabor4"> Brigadeiro</label><br>
+                    <input type="checkbox" name="sabor5" id="sabor5"> <label for="sabor5"> Melância</label><br>
+                    <input type="checkbox" name="sabor6" id="sabor6"> <label for="sabor6"> Creme</label>                    
                 </div>
             </fieldset>
             <br>
@@ -81,7 +75,7 @@
             <!-- Campo de senioridade com 3 opções para escolha (select option) e css de classe "campo" -->
             <fieldset>
                 <div class="campo">
-                    <label for="cobertura"><strong>Escolha a Cobertura</strong></label>
+                    <label class="setores" for="coberturas"><strong>Escolha a Cobertura</strong></label>
                     <select id="cobertura" required>
                       <option selected disabled value="">Selecione</option>
                       <option>Chocolate Granulado</option>

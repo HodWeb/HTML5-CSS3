@@ -8,7 +8,8 @@ html{
     background-image: url(imagens/sorvetes.jpg);
     width: 100vw;
     height: 100vh;
-    background-size: 100% 100%;
+    background-color: #90EDE2;
+    background-size: contain;
     background-repeat: no-repeat;
 
 }
@@ -66,9 +67,14 @@ input, select, textarea, button {
 
 /* Elementos de classe "campo" de tag <label> */
 .campo label {
-    margin-bottom: 0.2em;
-    color: rgb(75, 56, 56);/* #59429d; */
-    display: block;
+    margin-bottom: 0.4em;
+    color: rgb(27, 24, 24);    
+}
+
+/* Elementos de classe "campo" de tag <label> */
+.campo label.setores {
+    font-size: 1.3em;
+    color: #59429d;   
 }
 
 /* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
