@@ -22,7 +22,7 @@ h1 {
 }
 
 /* declarações retrato */
-@media screen and (orientation: potrait) {
+@media screen and (orientation: portrait) {
     body {
     background-image: url(../imagens/cev-portrait.jpg);
     background-position: center bottom;
